@@ -1,10 +1,19 @@
 import { Header } from './components/Header/Index';
-import './global.css';
-function App() {
+import { SideBar } from './components/SideBar/Index';
 
+import Styles from './App.module.css';
+import './global.css';
+
+function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
+      <div className={Styles.wrapper}>
+        <SideBar/>
+        <main>
+          <h1>Post</h1>
+        </main>
+      </div>
     </div>
   )
 }
