@@ -15,7 +15,7 @@ export function Comment() {
                             <time title='2022-05-11 08:13:00'>Cerca de 1h atrás</time>
                         </div>
                         <button title="Deletar comentário">
-                            <FaRegTrashAlt size={20}/>
+                            <FaRegTrashAlt size={24}/>
                         </button>
                     </header>
                     <p>Muito bom Devon, parabéns!! 👏👏 </p>
@@ -23,10 +23,9 @@ export function Comment() {
 
                 <footer>
                     <button>
-
+                        <FaRegThumbsUp/>
+                        Aplaudir <span>20</span>
                     </button>
-                    <FaRegThumbsUp/>
-                    Aplaudir <span>20</span>
                 </footer>
             </div>
         </div>
