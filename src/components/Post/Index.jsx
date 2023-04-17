@@ -6,7 +6,7 @@ import Styles from './Styles.module.css';
 import { useState } from 'react';
 
 export function Post({author,publishedAt,content}) {
-    const [comments, setComments] = useState([])
+    const [comments, setComments] = useState(['teste'])
 
     const [newCommentText, setNewCommentText] = useState('');
 
@@ -29,6 +29,13 @@ export function Post({author,publishedAt,content}) {
         setComments([...comments, newCommentText]);
 
         setNewCommentText('');
+    }
+
+    function deleteComment(commentToDelete) {
+        const commentsWithoutDeleteOne = comments.filter(comment => {
+            return comment !== commentToDelete;
+        })
+        setComments(commentsWithoutDeleteOne);
     }
     return (
         <article className={Styles.post}>
@@ -66,7 +73,7 @@ export function Post({author,publishedAt,content}) {
             <div className={Styles.commentList}>
                 {
                     comments.map(comment => {
-                        return <Comment key={comment} content={comment}/>
+                        return <Comment key={comment} content={comment} onDeleteComment={deleteComment}/>
                     })
                 }
             </div>

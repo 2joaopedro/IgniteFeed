@@ -4,7 +4,10 @@ import { FaRegTrashAlt,FaRegThumbsUp } from 'react-icons/fa';
 
 import Styles from './Styles.module.css';
 
-export function Comment({content}) {
+export function Comment({content, onDeleteComment}) {
+    function handleDeleteComment() {
+        onDeleteComment(content);
+    }
     return(
         <div className={Styles.comment}>
             <Avatar isComment={true} src='https://github.com/diego3g.png'/>
@@ -16,7 +19,7 @@ export function Comment({content}) {
                             <strong>Diego Fernandes</strong>
                             <time title='2022-05-11 08:13:00'>Cerca de 1h atrás</time>
                         </div>
-                        <button title="Deletar comentário">
+                        <button onClick={handleDeleteComment} title="Deletar comentário">
                             <FaRegTrashAlt size={24}/>
                         </button>
                     </header>
