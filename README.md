@@ -5,4 +5,5 @@ Nesse projeto aprendi fundamentos do RectJS utilizando o Vite e aplicando os con
 
 # Executando o projeto
 Abaixo seguem as instruções para você executar o projeto na sua máquina.
+
 Comece clonando o repositório e instalando suas dependências:
