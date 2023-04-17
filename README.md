@@ -17,10 +17,10 @@ npm install
 - [Layout | Figma 🎨]https://www.figma.com/file/Ji0rtxJfmzB9cufLyeZ6kL/Ignite-Feed-(Community)?node-id=1-35&t=A9gbfuedGk8NY1SO-0
 
 ## Funcionalidades 🚀
- [ ] **Escrever comentários**
+ - [ ] **Escrever comentários**
       Através do TextArea poderemos escrever o comentário que desejamos.
 
- [ ] **Adicionar comentários**
+- [ ] **Adicionar comentários**
       Através de um botão de publicar o comentário será efetuado.
 
 - [ ] **Deletar comentários**
