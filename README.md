@@ -17,7 +17,7 @@ npm install
 - [Figma 🎨](https://www.figma.com/file/Ji0rtxJfmzB9cufLyeZ6kL/Ignite-Feed-(Community)?node-id=0-1&t=A9gbfuedGk8NY1SO-0)
 
 ## Tech Stack 💜
-A _stack_ foi escolhida instrutor do curso
+A _stack_ foi escolhida pelo instrutor do curso.
 **🧑‍💻 Web:**
 - [Vite](https://vitejs.dev/)
 - [CssModule](https://github.com/css-modules/css-modules)
