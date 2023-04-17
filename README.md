@@ -18,6 +18,7 @@ npm install
 
 ## Tech Stack 💜
 A _stack_ foi escolhida pelo instrutor do curso.
+
 **🧑‍💻 Web:**
 - [Vite](https://vitejs.dev/)
 - [CssModule](https://github.com/css-modules/css-modules)
