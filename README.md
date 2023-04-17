@@ -35,5 +35,5 @@ A _stack_ foi escolhida pelo instrutor do curso.
       Quando o comentário for publicado terá um botão para deletar.
 
 - [ ] **Curtir comentarios**
-      Com o botão de curtir se efetuado quantidades de likes aquele post teve.
+      Com o botão de curtir será efetuado quantidades de likes aquele post teve.
       
