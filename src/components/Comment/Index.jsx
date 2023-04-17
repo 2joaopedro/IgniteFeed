@@ -4,7 +4,7 @@ import { FaRegTrashAlt,FaRegThumbsUp } from 'react-icons/fa';
 
 import Styles from './Styles.module.css';
 
-export function Comment() {
+export function Comment({content}) {
     return(
         <div className={Styles.comment}>
             <Avatar isComment={true} src='https://github.com/diego3g.png'/>
@@ -20,7 +20,7 @@ export function Comment() {
                             <FaRegTrashAlt size={24}/>
                         </button>
                     </header>
-                    <p>Muito bom Devon, parabéns!! 👏👏 </p>
+                    <p>{content}</p>
                 </div>
 
                 <footer>
