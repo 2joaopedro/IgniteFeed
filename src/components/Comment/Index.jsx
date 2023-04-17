@@ -3,10 +3,19 @@ import { Avatar } from '../Avatar/Index';
 import { FaRegTrashAlt,FaRegThumbsUp } from 'react-icons/fa';
 
 import Styles from './Styles.module.css';
+import { useState } from 'react';
 
 export function Comment({content, onDeleteComment}) {
+    const [likeCount, setLikeCount] = useState(0);
+
     function handleDeleteComment() {
         onDeleteComment(content);
+    }
+
+    function handleLikeComment(){
+        setLikeCount((state) => {
+            return state + 1
+        });
     }
     return(
         <div className={Styles.comment}>
@@ -27,9 +36,9 @@ export function Comment({content, onDeleteComment}) {
                 </div>
 
                 <footer>
-                    <button>
+                    <button onClick={handleLikeComment}>
                         <FaRegThumbsUp/>
-                        Aplaudir <span>20</span>
+                        Aplaudir <span>{likeCount}</span>
                     </button>
                 </footer>
             </div>

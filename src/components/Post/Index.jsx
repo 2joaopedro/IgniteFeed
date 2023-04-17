@@ -6,7 +6,7 @@ import Styles from './Styles.module.css';
 import { useState } from 'react';
 
 export function Post({author,publishedAt,content}) {
-    const [comments, setComments] = useState(['teste'])
+    const [comments, setComments] = useState([])
 
     const [newCommentText, setNewCommentText] = useState('');
 
