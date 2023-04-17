@@ -1,3 +1,5 @@
+import { Avatar } from '../Avatar/Index';
+
 import { FaRegTrashAlt,FaRegThumbsUp } from 'react-icons/fa';
 
 import Styles from './Styles.module.css';
@@ -5,7 +7,7 @@ import Styles from './Styles.module.css';
 export function Comment() {
     return(
         <div className={Styles.comment}>
-            <img src='https://github.com/diego3g.png'/>
+            <Avatar isComment={true} src='https://github.com/diego3g.png'/>
 
             <div className={Styles.commentBox}>
                 <div className={Styles.commentContent}>

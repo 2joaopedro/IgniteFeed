@@ -16,6 +16,7 @@
 
 .content p {
     margin-top: 1rem;
+    color: var(--gray-100);
 }
 
 .content a {
@@ -43,11 +44,6 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-}
-.author img {
-    width: calc(3rem + 12px);
-    height: calc(3rem + 12px);
-    border-radius: 8px;
 }
 
 .authorInfo strong {

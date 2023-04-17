@@ -1,3 +1,4 @@
+import { Avatar } from '../Avatar/Index';
 import Styles from './Styles.module.css';
 import { BiEditAlt } from 'react-icons/bi';
 
@@ -11,7 +12,7 @@ export function SideBar() {
 
             <div className={Styles.profile}>
                 <div className={Styles.avatarBorder}>
-                    <img className={Styles.avatar} src="https://github.com/diego3g.png"/>
+                    <Avatar isComment={false} src="https://github.com/diego3g.png"/>
                 </div>
                 <strong>Diego Fernandes</strong>
                 <span>Web Developer</span>

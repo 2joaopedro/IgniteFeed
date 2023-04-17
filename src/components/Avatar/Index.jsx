@@ -1,6 +1,7 @@
+import Styles from './Styles.module.css';
 
-export function Avatar() {
+export function Avatar({isComment = true, src}) {
     return (
-        <h1>Teste</h1>
+        <img className={isComment ? Styles.avatarcomment : Styles.avatar} src={src}/>
     )
 }
