@@ -9,5 +9,7 @@ Abaixo seguem as instruções para você executar o projeto na sua máquina.
 Comece clonando o repositório e instalando suas dependências:
 
 `git clone https://github.com/2joaopedro/IgniteFeed.git`
+
 `cd IgniteFeed`
+
 `npm install`
