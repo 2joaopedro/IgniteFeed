@@ -16,6 +16,13 @@ npm install
 
 - [Layout | Figma 🎨]https://www.figma.com/file/Ji0rtxJfmzB9cufLyeZ6kL/Ignite-Feed-(Community)?node-id=1-35&t=A9gbfuedGk8NY1SO-0
 
+## Tech Stack 💜
+A _stack_ foi escolhida instrutor do curso
+**🧑‍💻 Web:**
+- [Vite](https://vitejs.dev/)
+- [CssModule](https://github.com/css-modules/css-modules)
+- [React-Icons](https://react-icons.github.io/react-icons/)
+- [Date-Fns](https://date-fns.org/)
 ## Funcionalidades 🚀
  - [ ] **Escrever comentários**
       Através do TextArea poderemos escrever o comentário que desejamos.
@@ -28,3 +35,4 @@ npm install
 
 - [ ] **Curtir comentarios**
       Com o botão de curtir se efetuado quantidades de likes aquele post teve.
+      
