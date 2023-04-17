@@ -7,3 +7,7 @@ Nesse projeto aprendi fundamentos do RectJS utilizando o Vite e aplicando os con
 Abaixo seguem as instruções para você executar o projeto na sua máquina.
 
 Comece clonando o repositório e instalando suas dependências:
+
+git clone https://github.com/diego3g/rsxp-2023
+cd rsxp-2023
+npm install
