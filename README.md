@@ -14,7 +14,7 @@ npm install
 ```
 ## Links rápidos ↗
 
-- [Layout | Figma 🎨]https://www.figma.com/file/Ji0rtxJfmzB9cufLyeZ6kL/Ignite-Feed-(Community)?node-id=1-35&t=A9gbfuedGk8NY1SO-0
+- [Layout | Figma 🎨](https://www.figma.com/file/Ji0rtxJfmzB9cufLyeZ6kL/Ignite-Feed-(Community)?node-id=1-35&t=A9gbfuedGk8NY1SO-0)
 
 ## Tech Stack 💜
 A _stack_ foi escolhida instrutor do curso
