@@ -1,4 +1,4 @@
-![Header](file:///home/joaopedro/Downloads/Header.png)
+![Header](https://www.figma.com/file/Ji0rtxJfmzB9cufLyeZ6kL/Ignite-Feed-(Community)?node-id=1-20&t=IKWYeNaiUcH1u32M-4)
 
 # IgniteFeed 2023 - ReactJS
 Nesse projeto aprendi fundamentos do RectJS utilizando o Vite e aplicando os conceitos mais importantes do React, entre eles estão componentização, propriedades, estados, imutabilidade e hooks.
